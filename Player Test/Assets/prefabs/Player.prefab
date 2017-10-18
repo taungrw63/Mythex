@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50818308311716378}
   - component: {fileID: 114316574018547654}
   - component: {fileID: 114114354120084952}
+  - component: {fileID: 114189189814656138}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -37,7 +38,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1910978980490748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6, y: -4, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
@@ -418,7 +419,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 4047937551592272, guid: 15f0088cd276c2b4587700e821cc6e73, type: 2}
-  shootingRate: 0.15
+  shootingRate: 0.3
+--- !u!114 &114189189814656138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910978980490748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a02ef6248d20441bd45d95a0d60123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 20
+  isEnemy: 0
 --- !u!114 &114316574018547654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -440,6 +454,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -455,6 +470,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
