@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c8db8325077390c4c91ab41026f593a5
+timeCreated: 1508776845
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ZoodHardSell2
+  fontNames:
+  - ZoodHardSell2
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
